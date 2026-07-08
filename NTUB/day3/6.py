@@ -12,7 +12,7 @@ for i in range(n):
     elif c=="*": 
         s.append(str(a*b))
     elif c=="/":
-        s.append(str(a/b))
+        s.append(str(a//b))
     else:
         s.append(c)
 #print(s)            
